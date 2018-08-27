@@ -1,0 +1,30 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #f2f6fc;
+  justify-items: left;
+  margin: 20px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+}
+
+.header-buttons {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.search-input {
+  flex-grow: 1;
+  align-self: right;
+}
+
+.search-input > div {
+  width: 100%;
+}
+
+.search-input input {
+  width: 98%;
+}

@@ -1,0 +1,30 @@
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-color: lightgray;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.check {
+  margin-right: 15px;
+}
+.type {
+  text-transform: uppercase;
+  margin-right: 15px;
+  width: 85px;
+  align-self: right;
+  font-weight: ligher;
+  font-size: smaller;
+}
+
+.user-id {
+}
+.last {
+  margin-left: auto;
+}
